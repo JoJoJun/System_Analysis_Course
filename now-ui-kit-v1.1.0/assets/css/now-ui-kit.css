@@ -1992,7 +1992,7 @@ fieldset[disabled] .btn-danger.active {
 
 .btn-neutral {
     background-color: #FFFFFF;
-    color: #84878d;
+    color: #f96332;
 }
 
 .btn-neutral:hover,
@@ -2009,7 +2009,6 @@ fieldset[disabled] .btn-danger.active {
     background-color: #FFFFFF;
     color: #FFFFFF;
     box-shadow: none;
-    /*box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.17);*/
 }
 
 .btn-neutral:hover {
@@ -2104,13 +2103,13 @@ fieldset[disabled] .btn-neutral.active {
 .show>.btn-neutral.dropdown-toggle:focus,
 .show>.btn-neutral.dropdown-toggle:hover {
     background-color: #FFFFFF;
-    color: #2f85ff;
+    color: #fa7a50;
     box-shadow: none;
 }
 
 .btn-neutral:hover,
-.btn-neutral:focus {/*鼠标悬浮的时候变色*/
-    color: #2f85ff;
+.btn-neutral:focus {
+    color: #fa7a50;
 }
 
 .btn-neutral:hover:not(.nav-link),
@@ -3189,7 +3188,6 @@ p {
 
 .description p,
 p.description {
-    text-align: left;
     font-size: 1.14em;
 }
 
@@ -3574,10 +3572,10 @@ body {
 
 .navbar {
     padding-top: 0.625rem;
-    padding-bottom: 0.625rem;/*0.625*/
+    padding-bottom: 0.625rem;
     min-height: 53px;
-    margin-bottom: 0px;/*20*/
-    /*box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);控制阴影*/
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
 }
 
 .navbar a {
@@ -5111,7 +5109,6 @@ Created using IcoMoon - icomoon.io
     background-color: #52b2ff;
 }
 
-
 .footer nav {
     display: inline-block;
     float: left;
@@ -5490,20 +5487,6 @@ Created using IcoMoon - icomoon.io
     color: #FFFFFF;
     text-decoration: none;
 }
-
-.mytest {
-    text-align: center;
-}
-
-.deletepadding{
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
-
-.deletecenter{
-    text-align: left;
-}
-
 
 .section {
     padding: 70px 0;
